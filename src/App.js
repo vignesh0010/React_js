@@ -1,24 +1,31 @@
-import logo from './logo.svg';
+import Functional from './component/Functional';
+import ClassComponent from './component/ClassComponent';
+import JsxComponent from './component/JsxComponent';
 import './App.css';
+import State from './component/State';
+import FunctionClick from './component/FunctionClick';
+import ClassClick from './component/ClassClick';
+import EventBind from './component/EventBind';
+// import Msp_parent from './component/Msp_parent';
 
-function App() {
+function App() { 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+     <div className="class">
+      {/* <Functional name="kumar">
+        <h5>this the childern tag</h5>
+      </Functional>
+      <Functional name="sakthi" />
+      <Functional name="tamil" />
+      <ClassComponent heroName="kavi"/>
+      <ClassComponent heroName="vignesh"/>
+      <ClassComponent heroName="sanmugam"/> 
+      <JsxComponent /> 
+      <State />
+      <FunctionClick />
+      <ClassClick />
+      <EventBind />*/}
+      {/* <Msp_pare/nt /> */}
+     </div>
   );
 }
 
