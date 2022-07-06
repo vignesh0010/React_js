@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+
 
 export class Msp_child extends Component {
   render() {
@@ -11,4 +12,4 @@ export class Msp_child extends Component {
   }
 }
 
-export default Msp_child
+export default Msp_child;

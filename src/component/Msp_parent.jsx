@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Msp_child from './component/Msp_child';
+import Msp_child from './Msp_child'
 
 class Msp_parent extends Component {
     constructor(props) {
@@ -17,6 +17,7 @@ class Msp_parent extends Component {
     return (
       <div>
          <Msp_child EventMethod = {this.alertfunction} />
+         {/* <h1>hi</h1> */}
       </div>
     )
   }
